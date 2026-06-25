@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/*
+ * Atrament UI — foundations only (M1). Full design tokens + dark mode land in M5
+ * when the Atrament UI system is imported from claude.ai/design via DesignSync.
+ */
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+body {
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
